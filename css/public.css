@@ -1,0 +1,64 @@
+body, div, ul, li, dl, dt, dd, h1, h2, h3, h4, p, form, table, tr, td, a, img, input, strong, b, em, i, textarea, select, option { margin: 0; padding: 0;}
+li { list-style: none;}
+a { text-decoration: none; color: #fff;}
+a:hover { text-decoration: none;}
+img { border: 0 none; vertical-align: top;}
+.clearfix { *zoom: 1;}
+.clearfix:after { display: block; content: ""; height: 0; clear: both; visibility: hidden;}
+body{font-size: 12px; font-family:微软雅黑; color: #fff;}
+
+/*公共部分*/
+.public{ width: 1000px; height: auto; margin: 0 auto;}
+
+/*头部*/
+#header{ width: 100%; border-top:#006bb4 7px solid; height: 126px;}
+#header h3{ float: left;}
+.nav{ float: right; width: auto; height: 40px; margin-top: 43px;}
+.nav li{ float: left; padding:0px 35px 0px 5px; position: relative; font-size: 18px; line-height: 40px;}
+.nav a{color: #3d3d3d;}
+.nav a:hover{ color: #0771ba;}
+
+/*flash按钮*/
+.fl-left,.fl-right{ position: absolute; display: none; width: 113px; height: 113px; background: url(../images/arrow.png) no-repeat; text-indent: -99em; overflow: hidden;}
+.fl-left{ background-position: 0 0; top: 160px; left: 0;}
+.fl-right{ background-position: 0 -113px; top: 160px; right: 0;}
+
+/*底部*/
+.bottom{ height: 322px; width: 100%; background: url(../images/btm-bg.png) repeat-x;}
+.btm{ float: left; margin-left: -1px;}
+.bottom h3{ width: 150px; height: 30px; line-height: 30px; padding:22px 0 14px 25px; font-weight: 500; font-size: 14px;}
+.bottom ul{ width: 307px; height: 196px; background: url(../images/in-bg.png) repeat-x; border:1px solid #72c1f6; padding: 10px 0 0 24px;}
+.bottom li{ line-height: 24px;}
+.bottom a:hover{ color: skyblue;}
+
+.contact li{ line-height: 34px; height: 35px;}
+.contact i{ width: 34px; height: 35px; background: url(../images/contact.png) no-repeat; display:block; float: left;}
+.contact .tel{ background-position: 0 0;}
+.contact .phone{ background-position: 0 -35px;}
+.contact .qq{ background-position: 0 -70px;}
+.contact .email{ background-position: 0 -105px;}
+.contact .pos{ background-position: 0 -140px;}
+
+.footer{ width: 100%; height: 56px; border-top:3px solid #00223a; background: #003a61; padding-top: 14px;}
+.footer h3{padding-left: 52px; height: 40px; background: url(../images/footer.png) no-repeat; line-height: 40px; font-weight: 500; font-size: 11px;}
+
+/*导航菜单*/
+.nav-pub{ width: 173px; border: #e9e9e9 1px solid; padding: 20px 0 20px 15px; background: white; position: absolute;  z-index: 99; border-radius: 5px; top:40px; left: 0;}
+.nav-pub dd{  width: 100%; height: 37px; position: relative; font-size: 14px;}
+.nav-pub a{ display: block; height: 35px; line-height: 35px; padding-left: 10px;  color: #707885; font-size: 14px; width: 136px; border-radius: 5px; border: 1px solid #fff;}
+.nav-pub a:hover{color:#707885; background: #eeeeee; border-color: #e2e2e2;}
+.nav-pub .navCur{color:#707885; background: #eeeeee; border-color: #e2e2e2;}
+.nav-pub .nav-pub{ left: 173px; top: 0;}
+
+/*页面右边导航栏*/
+.page-right{ width: 62px; height: 198px; position: fixed; right: 0px; top: 50%; margin-top: -99px; z-index: 99;}
+.page-right li{ width: 100%; height: 61px; background: url(../images/pageR.jpg) no-repeat; cursor: pointer;}
+.page-right a{display: block; width: 100%; height: 100%; line-height: 100%; text-align: center; font-size: 5px;}
+.page-right .page01{ background-position: 0 0;}
+.page-right .page02{ background-position: 0 -61px;}
+.page-right .page03{ background-position: 0 -122px;}
+.page-right .page04{ width: 100%; height: 14px; border-top:1px solid #d0d0d0; background: #44464f; }
+
+/*置顶*/
+.toTop{ width: 44px; height: 18px; position: fixed; z-index: 100; background: #0570ba; bottom: 29px; left: 50%; margin-left:500px; padding-top: 26px; text-align: center; font-size: 14px; line-height: 18px; cursor: pointer; display: none;}
+.toTop i{ border-color: transparent transparent white transparent; border-style: solid; border-width: 12px; position: absolute; top:-5px; left: 9px;}
